@@ -1,0 +1,205 @@
+body{
+  font-size: 90%;
+    letter-spacing: .05em;
+    background-color: #efefef;
+  }
+  #page{
+    max-width: 1000px;
+    min-width: 700px;
+    margin: 10px auto 25px auto;
+    padding: 20px;
+    border: 4px double #000;
+    background-color:rgba(133, 187, 248, 0.8);  
+  }
+  h1{
+    color: rgb(19, 43, 36);
+    font-family: 'Luckiest Guy' ;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 2.2em;
+    width:400px;
+    margin: 10px auto 10px auto;
+    box-shadow: 5px 5px 5px #222222;
+    background-color:rgba(253, 165, 216,0.6);
+  }
+  h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 1.5em;
+    width:300px;
+    margin: 10px auto 10px auto;
+    text-align: center;
+    box-shadow: 5px 5px 5px #222222;
+    color: rgba(253, 165, 216,1);
+    background-color:rgb(19, 43, 36);
+    
+  }
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: cetner;
+    width: 600px;
+    margin: 20px auto 20px auto;
+    font-weight: normal;
+  }
+  ol{
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: decimal;
+    margin: 0px auto 0px auto;
+    padding-right: 40px;
+    line-height: 16px; 
+  }
+  ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    list-style-position: inside;
+    line-height: 16px;
+  
+  }
+  .city{
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color:rgba(253, 165, 216,.25);
+    border: 1px solid rgba(253, 165, 216,.25); 
+    border-radius: 20px;
+  }
+  a{
+    color: rgb(0,0,0);
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  a:hover, a.on{
+    color: rgb(0, 0, 0);
+    background-color: rgb(203, 223, 144);
+  }
+  img{
+    border-radius: 10px;
+  }
+  #nav-bar{
+    width: 570px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 1px solid rgb(0,0,0);
+    border-bottom: 1px solid rgb(0,0,0);
+    text-align: center;  
+  }
+  #nav-bar li{
+    display: inline;
+    margin: 0px 3px;
+  }
+  #author{
+    font-style: italic;
+  }
+  th{
+    padding:5px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  td{
+    background-color: rgba(253, 165, 216,0.6);;
+    border: 1px solid black;
+    padding:5px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+.italic{
+  font-style: italic;
+}
+
+
+input{
+  padding: 5px;
+  width: 100px;
+  border: 4px dashed rgba(253, 165, 216,1);
+  border-radius: 4px;
+}
+.locations{
+  margin-top:15px;
+  display: flex;
+  justify-content: space-between;
+}
+.top-salmon{
+  display:flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color:rgba(253, 165, 216,.25);
+  border: 1px solid rgba(253, 165, 216,.25); 
+  border-radius: 20px;
+}
+.welcome-p{
+  display:flex;
+  align-content: center;
+  flex-wrap:wrap;
+  background-color:rgba(253, 165, 216,.25);
+  border: 1px solid rgba(253, 165, 216,.25); 
+  border-radius: 20px;
+  width:700px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+.family{
+  display: flex;
+  justify-content: space-around;
+}
+#chinook{
+  opacity:82%;
+}
+.hours{
+  display:flex;
+  align-content: center;
+  flex-wrap:wrap;
+  background-color:rgba(253, 165, 216,.25);
+  border: 1px solid rgba(253, 165, 216,.25); 
+  border-radius: 20px;
+  width:650px;
+  margin: 0 auto;
+  text-align: center;
+}
+.stores{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 1.5px solid rgb(0, 0, 0);
+  font-size: 1.5em;
+  width:550px;
+  height:350px;
+  margin: 10px auto 10px auto;
+  text-align: left;
+  box-shadow: 7px 7px 7px #222222;
+  color: rgba(253, 165, 216,1);
+  background-color:rgb(19, 43, 36);
+
+}
+#contact{
+  background-color:rgba(2,3,4,0);
+  border:none;
+  box-shadow: none;
+}
+.contact-p{
+  display: flex;
+  flex-direction: column;
+  margin-left:20px;
+  
+}
+.merch{
+  display:flex;
+  justify-content: space-around;
+}
+input{
+  padding:5px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+label{
+  font-size: 16px
+}
